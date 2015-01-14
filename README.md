@@ -15,6 +15,10 @@ aws_access_key_id = <YOUR_ACCESS_KEY_ID>
 aws_secret_access_key = <YOUR_SECRET_ACCESS_KEY>
 ```
 
+## Install Packages
+
+npm install
+
 ## Create Topic and Queue
 
 AWS_PROFILE=snssqs node create.js 
