@@ -17,17 +17,25 @@ aws_secret_access_key = <YOUR_SECRET_ACCESS_KEY>
 
 ## Install Packages
 
+````
 npm install
+````
 
 ## Create Topic and Queue
 
+````
 AWS_PROFILE=snssqs node create.js 
+````
 
 ## Run
 
 ### Publish
+````
 AWS_PROFILE=snssqs node publish.js 
+````
 
 ### Consume
+````
 AWS_PROFILE=snssqs node consume.js 
+````
 
