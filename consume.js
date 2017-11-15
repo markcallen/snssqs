@@ -40,7 +40,7 @@ function receiveMessageCallback(err, data) {
 
   } else {
     process.stdout.write("-");
-    setTimeout(getMessages(), 100);
+    setTimeout(getMessages, 100);
   }
 }
 
@@ -49,6 +49,6 @@ function deleteMessageCallback(err, data) {
   //console.log(data);
 }
 
-setTimeout(getMessages(), 100);
+setTimeout(getMessages, 100);
 
 
