@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "async": "0.9.x",
-    "aws-sdk": "^2.1208.0",
+    "aws-sdk": "^2.1358.0",
     "util": "0.10.x"
   },
   "devDependencies": {},
